@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: [
-    '../../layers/select-layer',
+    '../../layers/element-plus-layer',
     '../../layers/no-element-plus-select-layer',
     '../../layers/no-element-plus-text-layer',
   ],
