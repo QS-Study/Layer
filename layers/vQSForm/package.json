@@ -1,5 +1,5 @@
 {
-  "name": "@cals/form",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
