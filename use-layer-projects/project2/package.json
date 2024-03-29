@@ -10,8 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt-awesome/theme": "^2.0.12",
+    "@nuxtjs/eslint-module": "^4.1.0",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
   }
 }
