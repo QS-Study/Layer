@@ -1,7 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const formProps = {
+  colSpacing: 24,
+  rowSpacing: 24,
+  span: 24,
+  offset: 1,
+  controls: [
+    {
+      controlId: '123123',
+      component: 'text'
+    }
+  ]
+}
+</script>
 
 <template>
   <div>
+    <vQSForm v-bind="formProps" />
     <!-- no-element-plus-select-layer component/Select.vue -->
     <Select />
 

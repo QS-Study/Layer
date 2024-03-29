@@ -17,6 +17,8 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "sass": "^1.72.0"
+    "sass": "^1.72.0",
+    "@cals/text": "workspace:*",
+    "@cals/form": "workspace:*"
   }
 }

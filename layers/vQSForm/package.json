@@ -1,5 +1,5 @@
 {
-  "name": "@cals/element-plus",
+  "name": "@cals/form",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,8 +13,8 @@
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
-    "@element-plus/nuxt": "^1.0.8",
-    "@pinia/nuxt": "^0.5.1",
-    "sass": "^1.72.0"
+    "@cals/text": "workspace:*",
+    "@cals/element-plus": "workspace:*",
+    "@cals/select": "workspace:*"
   }
 }
