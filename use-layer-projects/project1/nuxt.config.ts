@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   extends: [
     '../../layers/element-plus-layer',
     '../../layers/no-element-plus-select-layer',
-    '../../layers/no-element-plus-text-layer',
+    '../../layers/vQSForm',
+    'content-wind',
   ],
 });

@@ -1,7 +1,5 @@
 {
-  "name": "@cals/text",
-  "version": "1.0.0",
-  "main": "./nuxt.config.ts",
+  "name": "@cals/form",
   "private": true,
   "type": "module",
   "scripts": {
