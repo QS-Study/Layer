@@ -1,5 +1,5 @@
 {
-  "name": "@cals/form",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,9 +12,6 @@
   "dependencies": {
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "@cals/text": "workspace:*",
-    "@cals/element-plus": "workspace:*",
-    "@cals/select": "workspace:*"
+    "vue-router": "^4.3.0"
   }
 }

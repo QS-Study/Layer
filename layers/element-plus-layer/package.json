@@ -1,5 +1,5 @@
 {
-  "name": "@cals/element-plus",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
