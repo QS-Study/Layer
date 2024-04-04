@@ -1,3 +1,3 @@
-# nuxt3-awesome-starter를 이용한 연습 프로젝트
+# @qs-study/element-plus 연습 프로젝트
 
-- https://github.com/viandwi24/nuxt3-awesome-starter
+- 현재 npm에 올린 v.1.0.11 버전으로 실행 가능
