@@ -2,12 +2,13 @@
 
 <template>
   <div class="wrapper">
-    <Select />
     <el-button type="danger">element-plus Button</el-button>
+    <el-button type="warning">element-plus Button</el-button>
+    <ElButton type="primary">element-plus Button</ElButton>
   </div>
 </template>
 
-<style lang="scss">
+<style>
 .wrapper {
   width: 400px;
   height: 500px;
