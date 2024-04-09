@@ -1,36 +1,23 @@
 <script setup lang="ts">
-import { ColorModeSwitch } from '#components';
+import { ColorModeSwitch, Text, Select } from '#components';
 
-const formProps = {
-  colSpacing: 24,
-  rowSpacing: 24,
-  span: 24,
-  offset: 1,
-  controls: [
-    {
-      controlId: '123123',
-      component: 'AppNavbar',
-    },
-  ],
-};
-
-const componentMap: any = {
-  ColorModeSwitch,
-};
-
-function getComponent(component: string) {
-  return componentMap[component];
-}
-
-// const dynamicComponent = resolveComponent(getComponent('ColorModeSwitch'));
+const controls = [ColorModeSwitch, Text, Select]
 </script>
 
 <template>
   <div>
-    <span>vQSForm</span>
-    <vQSForm v-bind="formProps" />
+    <!-- <span>vQSForm</span> -->
+    <vQSForm>
+      <div v-for="control in controls" style="border: 1px solid black; display: flex; justify-content: center; margin: 20px auto; padding: 10px 0">
+        <br/>
+        <component :is="control" />
+      </div>
+      <!-- <ColorModeSwitch />
+      <Text></Text>
+      <Select></Select> -->
+    </vQSForm>
     <!-- no-element-plus-select-layer component/Select.vue -->
-    <span>-----</span>
+    <!-- <span>-----</span> -->
     <!-- <Select /> -->
 
     <!-- 아래 코드는 동작하지 않는 코드. Layer Project 이름으로 import는 안 됨. (no-element-plus-text-layer의 app.vue에 Text 컴포넌트를 넣었으나 import되지 않았음) -->
@@ -40,9 +27,9 @@ If this is a native custom element, make sure to exclude it from component resol
 
     <!-- no-element-plus-text-layer의 components/Text.vue -->
     <!-- <VQSText /> -->
-    <ColorModeSwitch />
+    <!-- <ColorModeSwitch />
     <span>-----</span><br />
     <component :is="ColorModeSwitch" /><br />
-    <component :is="getComponent('ColorModeSwitch')" />
+    <component :is="getComponent('ColorModeSwitch')" /> -->
   </div>
 </template>
