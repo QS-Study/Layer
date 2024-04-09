@@ -12,8 +12,7 @@ export default defineNuxtConfig({
     // '../../layers/ui-layer',
     '@kt-test/el-plus-layer',
     '@kt-test/ui-layer',
-    '../../layers/vQSForm',
-    '../../layers/vQSText'
+    '@kt-test/form',
   ],
   components: {
     dirs: [
