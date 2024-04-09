@@ -21,7 +21,7 @@ const props = withDefaults(defineProps<vQSTextProps>(), {
   }
 })
 
-debugger
+
 const controlData = reactive(props.controlData)
 
 </script>

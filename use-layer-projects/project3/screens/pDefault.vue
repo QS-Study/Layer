@@ -12,9 +12,10 @@ const { components, uiType, screen } = useBaseScreen(
   props.screenId
 )
 
-function toPascalCase(str: string): string {
-  return str.replace(/(\w)(\w*)/g, (_, first, rest) => first.toUpperCase() + rest.toLowerCase())
-}
+// function toPascalCase(str: string): string {
+//   return str.replace(/(\w)(\w*)/g, (_, first, rest) => first.toUpperCase() + rest.toLowerCase())
+// }
+
 </script>
 
 <template>
@@ -31,7 +32,7 @@ function toPascalCase(str: string): string {
                   :screen-id="props.screenId"
                 /> -->
                 <vqsform :key="component.groupIndex"  :component-id="component.componentId"
-                  :screen-id="props.screenId" />
+                  :screen-id="props.screenId" :controls="component.controls" />
               </div>
             </div>
           </template>

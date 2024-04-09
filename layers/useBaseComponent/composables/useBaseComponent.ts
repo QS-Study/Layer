@@ -7,7 +7,6 @@ export default function <P extends any, C extends any>(
 
   const screenStore = useScreenStore()
 
-
   const component = computed(() => {
     return screenStore.getComponent(screenId, componentId)
   })
@@ -23,7 +22,7 @@ export default function <P extends any, C extends any>(
 
   return {
     component,
-    componentProp,
+    componentProp, 
     controls
   }
 }

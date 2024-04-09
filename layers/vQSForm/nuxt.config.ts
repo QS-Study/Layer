@@ -1,3 +1,3 @@
 export default defineNuxtConfig({
-  extends:['../useBaseComponent']
+  extends:['../vQSText', '../vQSTextarea']
 });

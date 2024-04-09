@@ -11,8 +11,6 @@ const SettingApp = SettingAppStore()
 
 // metaStore.setUserData(metaData.data)
 
-
-
 </script>
 
 <template>
@@ -22,7 +20,6 @@ const SettingApp = SettingAppStore()
       :layout-menu-collapse="SettingApp.layoutMenuCollapse"
       :layout-main-expand="SettingApp.layoutMainExpand"
     >
-      <!-- <div class="layout-container-bg" :style="(SettingApp.layoutThemeBg !== '') ? `background-image: url(./img/${SettingApp.layoutThemeBg});` : ''"></div>     -->
       
       <div class="layout-header">
         <headerInfo :propSetting = "SettingApp" />
