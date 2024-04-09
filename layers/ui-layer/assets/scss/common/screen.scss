@@ -1,0 +1,35 @@
+.qs-screen {
+  height: 100%;
+  overflow: auto;
+  // border: 1px solid cyan;
+
+  .qs-screen-row {
+    display: grid;
+    row-gap: var(--qs-layout-padding);
+    // border: 1px solid red;
+
+    .qs-screen-col {
+      max-width: initial;
+      position: relative;
+      // border: 1px solid green;
+    }
+
+    // is-full 일때
+    &.is-full {
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(24, 1fr);
+      gap: var(--qs-layout-padding);
+      grid-auto-flow: row dense;
+      height: 100%;
+      margin: initial !important;
+      overflow: initial;
+
+      [class*='qs-screen-col'] {
+        max-width: initial;
+        height: 100%;
+        padding: initial !important;
+        overflow: auto;
+      }
+    }
+  }
+}

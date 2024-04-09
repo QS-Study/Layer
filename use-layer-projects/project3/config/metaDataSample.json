@@ -1,0 +1,1430 @@
+{
+    "data": {
+        "gnb": {
+            "navigation": {
+                "enabled": true
+            },
+            "search": {
+                "enabled": false
+            },
+            "notification": {
+                "enabled": true,
+                "items": []
+            },
+            "settings": {
+                "enabled": true,
+                "items": []
+            },
+            "languages": {
+                "enabled": true,
+                "items": [
+                    {
+                        "itemId": "item_sysId1",
+                        "key": "en-US",
+                        "icon": "flag-usa",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId"
+                    },
+                    {
+                        "itemId": "item_sysId2",
+                        "key": "ko-KR",
+                        "icon": "flag",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId"
+                    }
+                ]
+            },
+            "profile": {
+                "enabled": true,
+                "items": [
+                    {
+                        "itemId": "item_sysId1",
+                        "key": "My",
+                        "icon": "id-card",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId"
+                    },
+                    {
+                        "itemId": "item_sysId2",
+                        "key": "Logout",
+                        "icon": "sign-out-alt",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId"
+                    },
+                    {
+                        "itemId": "item_sysId3",
+                        "key": "IP",
+                        "icon": "info-circle",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId"
+                    },
+                    {
+                        "itemId": "item_sysId4",
+                        "key": "LastLogin",
+                        "icon": "user-clock",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId"
+                    }
+                ]
+            },
+            "logo": {
+                "enabled": false,
+                "items": [
+                    {
+                        "itemId": "item_sysId1",
+                        "key": "imageUpload",
+                        "icon": "",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId",
+                        "prop": {
+                            "images": [
+                                {
+                                    "id": "images_sysId",
+                                    "name": "bE9RKLuKq.png",
+                                    "filePath": "https://s3.ap-northeast-2.amazonaws.com/dev.repo.calsplatz.com/demo/A00002/2023/7/11/HZu-Xetwv.png",
+                                    "size": 5273,
+                                    "seq": 1,
+                                    "itemId": "item_sysId1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "sitemap": {
+                "enabled": true
+            },
+            "bottomLogo": {
+                "enabled": false,
+                "items": [
+                    {
+                        "itemId": "item_sysId1",
+                        "key": "bottomLogoUpload",
+                        "icon": "",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId",
+                        "prop": {
+                            "images": [
+                                {
+                                    "id": "images_sysId",
+                                    "name": "1.jpg",
+                                    "filePath": "https://s3.ap-northeast-2.amazonaws.com/dev.repo.calsplatz.com/demo/A00002/2023/7/12/Rd2xlLETh.jpg",
+                                    "size": 23125,
+                                    "seq": 1,
+                                    "itemId": "item_sysId1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "gnbLogo": {
+                "enabled": false,
+                "items": [
+                    {
+                        "itemId": "item_sysId1",
+                        "key": "gnbLogoUpload",
+                        "icon": "",
+                        "title": "",
+                        "enabled": true,
+                        "gnbId": "gnb_sysId",
+                        "tlAccId": "tlAccId",
+                        "prop": {
+                            "images": [
+                                {
+                                    "id": "images_sysId",
+                                    "name": "마루귀여워.gif",
+                                    "filePath": "https://s3.ap-northeast-2.amazonaws.com/dev.repo.calsplatz.com/demo/A00002/2023/7/11/8iNlIf2dQ.gif",
+                                    "size": 277086,
+                                    "seq": 1,
+                                    "itemId": "item_sysId1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "lang": {},
+        "theme": {
+            "name": "core"
+        },
+        "auths": [
+            {
+                "authId": "1fc364acdb7711eab9cc0ab4a295bf36",
+                "name": "Initial Education Auth For educationAcc2",
+                "authModify": "1fc364acdb7711eab9cc0ab4a295bf3620230625101258"
+            },
+            {
+                "authId": "1fc452c4db7711eab9cc0ab4a295bf36",
+                "name": "Initial Education Auth For educationAcc",
+                "authModify": "1fc452c4db7711eab9cc0ab4a295bf3620201112062945"
+            }
+        ],
+        "commCodes": [],
+        "locales": [
+            {
+                "lang": "en-US",
+                "symstr": {
+                    "SYM_HOME": "Home",
+                    "client_home_title": "Home Page",
+                    "metadata_guide": "Metadata Guide",
+                    "SYM_SAMPLE": "Sample",
+                    "SAMPLE_COMPONENT": "Sample Component",
+                    "SAMPLE_CONTROL": "Sample Control"
+                },
+                "commCodes": {}
+            },
+            {
+                "lang": "ko-KR",
+                "symstr": {
+                    "SYM_HOME": "홈",
+                    "client_home_title": "홈 화면",
+                    "metadata_guide": "메타데이터 사용방법",
+                    "SYM_SAMPLE": "샘플페이지",
+                    "SAMPLE_COMPONENT": "샘플 컴포넌트",
+                    "SAMPLE_CONTROL": "샘플 컨트롤"
+                },
+                "commCodes": {}
+            },
+            {
+                "lang": "",
+                "symstr": {},
+                "commCodes": {}
+            }
+        ],
+        "integrations": [],
+        "currency": [
+            {
+                "name": "SYM_WON",
+                "code": "KRW",
+                "country": "SYM_KOREA",
+                "symbol": "₩",
+                "decimal": 0
+            },
+            {
+                "name": "SYM_DOLLAR",
+                "code": "USD",
+                "country": "SYM_UNITED STATES",
+                "symbol": "$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_EURO",
+                "code": "EUR",
+                "country": "SYM_EUROPEAN",
+                "symbol": "€",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_YUAN",
+                "code": "CNY",
+                "country": "SYM_CHINA",
+                "symbol": "CNY",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_YEN",
+                "code": "JPY",
+                "country": "SYM_JAPAN",
+                "symbol": "￥",
+                "decimal": 0
+            },
+            {
+                "name": "SYM_POUND",
+                "code": "GBP",
+                "country": "SYM_UNITED_KINGDOM",
+                "symbol": "￡",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_DOLLAR",
+                "code": "HKD",
+                "country": "SYM_HONG KONG",
+                "symbol": "HK$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_DOLLAR",
+                "code": "AUD",
+                "country": "SYM_AUSTRALIA",
+                "symbol": "$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_REAL",
+                "code": "BRL",
+                "country": "SYM_BRAZIL",
+                "symbol": "R$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_DOLLAR",
+                "code": "CAD",
+                "country": "SYM_CANADA",
+                "symbol": "$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_KRONE",
+                "code": "DKK",
+                "country": "SYM_DENMARK",
+                "symbol": "kr",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_FORINT",
+                "code": "HUF",
+                "country": "SYM_HUNGARY",
+                "symbol": "Ft",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_PESO",
+                "code": "MXN",
+                "country": "SYM_MEXICO",
+                "symbol": "N$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_DOLLAR",
+                "code": "NZD",
+                "country": "SYM_NEWZEALAND",
+                "symbol": "$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_KRONE",
+                "code": "NOK",
+                "country": "SYM_NORWAY",
+                "symbol": "kr",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_DOLLAR",
+                "code": "SGD",
+                "country": "SYM_SINGAPORE",
+                "symbol": "$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_RAND",
+                "code": "ZAR",
+                "country": "SYM_SOUTH_AFRICA",
+                "symbol": "R",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_KRONA",
+                "code": "SEK",
+                "country": "SYM_SWEDEN",
+                "symbol": "kr",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_FRANC",
+                "code": "CHF",
+                "country": "SYM_SWITZERLAND",
+                "symbol": "SFr.",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_DOLLAR",
+                "code": "TWD",
+                "country": "SYM_TAIWAN",
+                "symbol": "NT$",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_LIRA",
+                "code": "TRY",
+                "country": "SYM_TURKEY",
+                "symbol": "TL",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_SHEKEL",
+                "code": "ILS",
+                "country": "SYM_ISRAEL",
+                "symbol": "ILS",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_BAHT",
+                "code": "THB",
+                "country": "SYM_THAILAND",
+                "symbol": "ß",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_RUPEE",
+                "code": "INR",
+                "country": "SYM_INDIA",
+                "symbol": "Rs.",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_RUBLE",
+                "code": "RUB",
+                "country": "SYM_RUSSIA",
+                "symbol": "р.",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_RUPIAH",
+                "code": "IDR",
+                "country": "SYM_INDONESIA",
+                "symbol": "Rp",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_RUPEE",
+                "code": "PKR",
+                "country": "SYM_PAKISTAN",
+                "symbol": "Rs",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_PESO",
+                "code": "PHP",
+                "country": "SYM_PHILIPPINES",
+                "symbol": "Php",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_ZLOTY",
+                "code": "PLN",
+                "country": "SYM_POLAND",
+                "symbol": "zł",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_RINGGIT",
+                "code": "MYR",
+                "country": "SYM_MALAYSIA",
+                "symbol": "R",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_POUND",
+                "code": "EGP",
+                "country": "SYM_EGYPT",
+                "symbol": "E￡",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_RIYAL",
+                "code": "SAR",
+                "country": "SYM_SAUDIARABIA",
+                "symbol": "SR",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_TAKA",
+                "code": "BDT",
+                "country": "SYM_BANGLADESH",
+                "symbol": "Bt.",
+                "decimal": 2
+            },
+            {
+                "name": "SYM_PESO",
+                "code": "CLP",
+                "country": "SYM_CHILE",
+                "symbol": "$",
+                "decimal": 0
+            },
+            {
+                "name": "SYM_DONG",
+                "code": "VND",
+                "country": "SYM_VIETNAM",
+                "symbol": "₫",
+                "decimal": 0
+            },
+            {
+                "name": "SYM_KORUNA",
+                "code": "CZK",
+                "country": "SYM_CZECHREPUBLIC",
+                "symbol": "Kč",
+                "decimal": 2
+            }
+        ],
+        "chart": [
+            {
+                "name": "vQSAreaChart",
+                "module": "syncfusion",
+                "multiSeries": true,
+                "sort": false
+            },
+            {
+                "name": "vQSBarChart",
+                "module": "syncfusion",
+                "multiSeries": true,
+                "sort": false
+            },
+            {
+                "name": "vQSColumnBarChart",
+                "module": "syncfusion",
+                "multiSeries": true,
+                "sort": false
+            },
+            {
+                "name": "vQSFunnelChart",
+                "module": "syncfusion",
+                "multiSeries": false,
+                "sort": false
+            },
+            {
+                "name": "vQSLineChart",
+                "module": "syncfusion",
+                "multiSeries": true,
+                "sort": false
+            },
+            {
+                "name": "vQSParetoChart",
+                "module": "syncfusion",
+                "multiSeries": false,
+                "sort": true
+            },
+            {
+                "name": "vQSPieChart",
+                "module": "syncfusion",
+                "multiSeries": false,
+                "sort": false
+            },
+            {
+                "name": "vQSPyramidChart",
+                "module": "syncfusion",
+                "multiSeries": false,
+                "sort": false
+            },
+            {
+                "name": "vQSSplineAreaChart",
+                "module": "syncfusion",
+                "multiSeries": true,
+                "sort": false
+            },
+            {
+                "name": "vQSSplineChart",
+                "module": "syncfusion",
+                "multiSeries": true,
+                "sort": false
+            },
+            {
+                "name": "vQSStackedColumnBarChart",
+                "module": "syncfusion",
+                "multiSeries": true,
+                "sort": false
+            },
+            {
+                "name": "vQSDonutChart",
+                "module": "syncfusion",
+                "multiSeries": false,
+                "sort": false
+            }
+        ],
+        "extMeta": {},
+        "calendars": {
+            "custom_sysId": {
+                "calendarId": "00cf78481faf11eeae7d0af218b879ee",
+                "items": [
+                    {
+                        "itemId": "7a8c27e8214e11eea0890af218b879ee",
+                        "type": "day",
+                        "date": "2023-07-14",
+                        "week": [],
+                        "dotColor": "#852D2D",
+                        "textColor": "#761818",
+                        "dateType": "lunar",
+                        "title": "",
+                        "customTitle": "rqwr"
+                    },
+                    {
+                        "itemId": "39f1c17c207311eeae7d0af218b879ee",
+                        "type": "monthly",
+                        "date": "2023-07-19",
+                        "week": [],
+                        "dotColor": "#471C1C",
+                        "textColor": "",
+                        "dateType": "solar",
+                        "title": "GD_DESC",
+                        "customTitle": "dfghASDF"
+                    }
+                ]
+            },
+            "default": {
+                "calendarId": "053c85611faf11eeae7d0af218b879ee",
+                "items": [
+                    {
+                        "itemId": "2a17f727211f11eea0890af218b879ee",
+                        "type": "day",
+                        "date": "2023-07-13",
+                        "week": [],
+                        "dotColor": "#FF0000",
+                        "textColor": "#FF0000",
+                        "dateType": "solar",
+                        "title": "",
+                        "customTitle": "오늘"
+                    },
+                    {
+                        "itemId": "25dd52bd215011eea0890af218b879ee",
+                        "type": "yearly",
+                        "date": "2023-05-25",
+                        "week": [],
+                        "dotColor": "#A50DB2",
+                        "textColor": "#A50DB2",
+                        "dateType": "solar",
+                        "title": "",
+                        "customTitle": "정승경 생일"
+                    },
+                    {
+                        "itemId": "8a1319b6206e11eeae7d0af218b879ee",
+                        "type": "yearly",
+                        "date": "2023-12-09",
+                        "week": [],
+                        "dotColor": "#00D4FF",
+                        "textColor": "#00D4FF",
+                        "dateType": "solar",
+                        "title": "",
+                        "customTitle": "최윤아 생일"
+                    },
+                    {
+                        "itemId": "a74bcbe9211d11eea0890af218b879ee",
+                        "type": "monthly",
+                        "date": "2023-07-01",
+                        "week": [],
+                        "dotColor": "#77FF00",
+                        "textColor": "#77FF00",
+                        "dateType": "solar",
+                        "title": "GD_DESC",
+                        "customTitle": ""
+                    },
+                    {
+                        "itemId": "f72a8d98207311eeae7d0af218b879ee",
+                        "type": "monthly",
+                        "date": "2023-07-20",
+                        "week": [],
+                        "dotColor": "",
+                        "textColor": "",
+                        "dateType": "solar",
+                        "title": "GD_CON_PROP_INLINE_EDIT",
+                        "customTitle": "ASDFLKJHDFG111123"
+                    },
+                    {
+                        "itemId": "8afce18e211d11eea0890af218b879ee",
+                        "type": "weekly",
+                        "date": "",
+                        "week": [
+                            "sat"
+                        ],
+                        "dotColor": "#0800FF",
+                        "textColor": "#0800FF",
+                        "dateType": "solar",
+                        "title": "",
+                        "customTitle": "토요일"
+                    },
+                    {
+                        "itemId": "9b653651211d11eea0890af218b879ee",
+                        "type": "weekly",
+                        "date": "",
+                        "week": [
+                            "sun"
+                        ],
+                        "dotColor": "#FF0000",
+                        "textColor": "#FF0000",
+                        "dateType": "solar",
+                        "title": "",
+                        "customTitle": "일요일"
+                    },
+                    {
+                        "itemId": "f260862e211e11eea0890af218b879ee",
+                        "type": "weekly",
+                        "date": "",
+                        "week": [
+                            "fri"
+                        ],
+                        "dotColor": "#FFF200",
+                        "textColor": "#FFF200",
+                        "dateType": "solar",
+                        "title": "",
+                        "customTitle": "금요일"
+                    }
+                ]
+            }
+        },
+        "user": {
+            "name": "Education Admin",
+            "email": "education_admin@quintet.co.kr",
+            "adminFlag": false,
+            "userId": "245eb28fdb7711eab9cc0ab4a295bf36",
+            "accountId": "1fc364acdb7711eab9cc0ab4a295bf36",
+            "accountName": "educationAcc",
+            "accountCode": "A00002"
+        },
+        "application": {
+            "applicationId": "1fc2513bdb7711eab9cc0ab4a295bf36",
+            "code": "demo",
+            "name": "Education Staging",
+            "logo": "",
+            "version": "A08904",
+            "weblogUrl": ""
+        },
+        "menus": [
+            {
+                "menuId": "menu_sysId1",
+                "title": "SYM_HOME",
+                "customTitle": "",
+                "path": "/",
+                "hidden": false,
+                "seq": 0,
+                "screenId": "screen_sysId1",
+                "root": true,
+                "icon": "home",
+                "children": []
+            },
+            {
+                "menuId": "menu_sysId2",
+                "title": "SYM_SAMPLE",
+                "customTitle": "",
+                "path": "/sample",
+                "hidden": false,
+                "seq": 1,
+                "screenId": "screen_sysId2",
+                "root": true,
+                "icon": "",
+                "children": []
+            }
+        ],
+        "screens": [
+            {
+                "screenId": "screen_sysId1",
+                "screenMasterId": "screen_masterSysId",
+                "menuId": "menu_sysId1",
+                "layout": "pDefault",
+                "path": "/",
+                "navigation": "",
+                "title": "SYM_HOME",
+                "customTitle": "",
+                "UIType": "page",
+                "bgId": null,
+                "bgTitle": null,
+                "rootFlag": true,
+                "masterFlag": true,
+                "prop": {},
+                "style": {},
+                "components": [
+                    {
+                        "componentId": "component_sysId1",
+                        "componentMasterId": "component_masterSysId1",
+                        "componentCreateDate": "2021-01-21T01:25:39.000Z",
+                        "componentModifyDate": "2022-07-20T01:55:02.000Z",
+                        "scnId": "screen_sysId1",
+                        "boId": "",
+                        "boTitle": "",
+                        "component": "vQSForm",
+                        "chart": null,
+                        "title": "client_home_title",
+                        "customTitle": "홈 화면",
+                        "readOnly": false,
+                        "enabled": true,
+                        "groupIndex": 1,
+                        "index": 0,
+                        "linkId": null,
+                        "data": [],
+                        "events": null,
+                        "prop": {
+                            "controlSpacing": {
+                                "colSpacing": 15,
+                                "rowSpacing": 20
+                            }
+                        },
+                        "style": {},
+                        "controls": [
+                            {
+                                "controlId": "control_sysId1",
+                                "comId": "component_sysId1",
+                                "component": "vQSLabel",
+                                "fieldId": null,
+                                "fieldTitle": null,
+                                "fieldType": null,
+                                "title": "metadata_guide",
+                                "customTitle": "메타데이터 사용방법",
+                                "placeHolder": "",
+                                "customPlaceHolder": "",
+                                "seq": 1,
+                                "hidden": false,
+                                "conReadOnly": false,
+                                "conRequired": false,
+                                "objDefaultValue": null,
+                                "conDefaultValue": "",
+                                "conDefaultValueType": "",
+                                "commCode": "",
+                                "objReadOnly": false,
+                                "objRequired": false,
+                                "enabled": true,
+                                "chartDataType": "",
+                                "calcFlag": false,
+                                "joinFlag": false,
+                                "maskFlag": false,
+                                "colEncFlag": false,
+                                "readOnly": false,
+                                "required": false,
+                                "defaultValue": "",
+                                "data": "",
+                                "scriptFlag": false,
+                                "events": null,
+                                "prop": {
+                                    "displayDataType": "title"
+                                },
+                                "style": {}
+                            },
+                            {
+                                "controlId": "control_sysId2",
+                                "comId": "component_sysId1",
+                                "component": "vQSTextarea",
+                                "fieldId": null,
+                                "fieldTitle": null,
+                                "fieldType": null,
+                                "title": "",
+                                "customTitle": "",
+                                "placeHolder": "",
+                                "customPlaceHolder": "",
+                                "seq": 2,
+                                "hidden": false,
+                                "conReadOnly": true,
+                                "conRequired": false,
+                                "objDefaultValue": null,
+                                "conDefaultValue": "* 컴포넌트 및 컨트롤 테스트를 위해 추가해야 하는 것들\\n1. menus 추가\\n- menuId: 임의의 sysId를 생성한다.\\n- title: locales.symstr 값을 추가 한다. (en-Us, ko-KR)\\n- path: 이동할 url 설정(중복X)\\n- chidren: 자식 메뉴 추가를 위해 존재\\n\\n2. screens 추가\\n- screenId: 임의의 sysId를 생성한다.(중복X)\\n- path: 연결할 menu의 path와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n3. components\\n- componentId: 임의의 sysId를 생성한다.(중복X)\\n- scnId: 연결할 screen의 screenId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n4. controls\\n- controlId: 임의의 sysId를 생성한다.\\n- comId: 연결할 component의 componentId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n",
+                                "conDefaultValueType": "",
+                                "commCode": "",
+                                "objReadOnly": false,
+                                "objRequired": false,
+                                "enabled": true,
+                                "chartDataType": "",
+                                "calcFlag": false,
+                                "joinFlag": false,
+                                "maskFlag": false,
+                                "colEncFlag": false,
+                                "readOnly": true,
+                                "required": false,
+                                "defaultValue": "* 컴포넌트 및 컨트롤 테스트를 위해 추가해야 하는 것들\\n1. menus 추가\\n- menuId: 임의의 sysId를 생성한다.\\n- title: locales.symstr 값을 추가 한다. (en-Us, ko-KR)\\n- path: 이동할 url 설정(중복X)\\n- chidren: 자식 메뉴 추가를 위해 존재\\n\\n2. screens 추가\\n- screenId: 임의의 sysId를 생성한다.(중복X)\\n- path: 연결할 menu의 path와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n3. components\\n- componentId: 임의의 sysId를 생성한다.(중복X)\\n- scnId: 연결할 screen의 screenId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n4. controls\\n- controlId: 임의의 sysId를 생성한다.\\n- comId: 연결할 component의 componentId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n",
+                                "scriptFlag": false,
+                                "data": "* 컴포넌트 및 컨트롤 테스트를 위해 추가해야 하는 것들\\n1. menus 추가\\n- menuId: 임의의 sysId를 생성한다.\\n- title: locales.symstr 값을 추가 한다. (en-Us, ko-KR)\\n- path: 이동할 url 설정(중복X)\\n- chidren: 자식 메뉴 추가를 위해 존재\\n\\n2. screens 추가\\n- screenId: 임의의 sysId를 생성한다.(중복X)\\n- path: 연결할 menu의 path와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n3. components\\n- componentId: 임의의 sysId를 생성한다.(중복X)\\n- scnId: 연결할 screen의 screenId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n4. controls\\n- controlId: 임의의 sysId를 생성한다.\\n- comId: 연결할 component의 componentId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n",
+                                "events": null,
+                                "prop": {
+                                    "span": 24,
+                                    "heightUnitCnt": 5
+                                },
+                                "style": {}
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "screenId": "screen_sysId2",
+                "screenMasterId": "f480bbc08cf811eeafe20a57c56cc3cc",
+                "menuId": "c2384157745f11eeafe20a57c56cc3cc",
+                "layout": "pDefault",
+                "path": "/sample",
+                "navigation": "",
+                "title": "SYM_TIER_GRP_DTL",
+                "customTitle": "",
+                "UIType": "page",
+                "bgId": "c1157d538f2211eeafe20a57c56cc3cc",
+                "bgTitle": "Tier Grp",
+                "rootFlag": false,
+                "masterFlag": false,
+                "prop": {},
+                "style": {},
+                "components": [
+                    {
+                        "componentId": "0609968d8cf911eeafe20a57c56cc3cc",
+                        "componentMasterId": "7ac557d58cf011eeafe20a57c56cc3cc",
+                        "componentCreateDate": "2023-11-27T06:44:57.000Z",
+                        "componentModifyDate": "2024-03-21T01:13:59.000Z",
+                        "scnId": "f480bbc08cf811eeafe20a57c56cc3cc",
+                        "boId": "8819388b8d8511eeafe20a57c56cc3cc",
+                        "boTitle": "Tier Group BO",
+                        "component": "vQSForm",
+                        "chart": null,
+                        "title": "SYM_LOY_BASC_INFO",
+                        "customTitle": "",
+                        "readOnly": false,
+                        "enabled": true,
+                        "groupIndex": 1,
+                        "index": 0,
+                        "linkId": null,
+                        "data": [],
+                        "events": [
+                            {
+                                "eventId": "8be7394aab8b11eeafe20a57c56cc3cc",
+                                "event": "load",
+                                "objectId": "7ac557d58cf011eeafe20a57c56cc3cc",
+                                "actions": [
+                                    {
+                                        "actionId": "f0b933c0ab8c11eeafe20a57c56cc3cc",
+                                        "action": "lambda",
+                                        "type": "",
+                                        "beforeQScript": "",
+                                        "seq": 2,
+                                        "afterQScript": "",
+                                        "targetComponentId": "",
+                                        "path": "https://app.restapi.calsplatz.com/ComCommonSelect/CalsComWebCommonSelectData",
+                                        "mappingType": "data",
+                                        "target": "controls",
+                                        "bindingPath": "",
+                                        "serviceId": "8be7394aab8b11eeafe20a57c56cc3cc",
+                                        "asyncFlag": "",
+                                        "controlId": "",
+                                        "userQScript": [],
+                                        "components": null,
+                                        "lambda": {
+                                            "path": "https://app.restapi.calsplatz.com/ComCommonSelect/CalsComWebCommonSelectData",
+                                            "targetComponentId": "",
+                                            "mapping": {
+                                                "type": "data",
+                                                "target": "controls",
+                                                "bindingPath": "",
+                                                "controlId": ""
+                                            }
+                                        },
+                                        "listId": "",
+                                        "checkAction": {
+                                            "params": [
+                                                {
+                                                    "type": "urlParam",
+                                                    "key": "sysId",
+                                                    "keyType": "",
+                                                    "paramKey": "",
+                                                    "paramKeyType": "",
+                                                    "actType": "check",
+                                                    "value": "",
+                                                    "operator": "!==",
+                                                    "controlId": "",
+                                                    "actionId": "f0b933c0ab8c11eeafe20a57c56cc3cc",
+                                                    "acpSeq": ""
+                                                }
+                                            ]
+                                        },
+                                        "params": [
+                                            {
+                                                "type": "urlParam",
+                                                "key": "sysId",
+                                                "keyType": "",
+                                                "paramKey": "7ac6cd9f8cf011eeafe20a57c56cc3cc",
+                                                "paramKeyType": "",
+                                                "actType": "",
+                                                "value": "",
+                                                "operator": "",
+                                                "controlId": "",
+                                                "actionId": "f0b933c0ab8c11eeafe20a57c56cc3cc",
+                                                "acpSeq": ""
+                                            },
+                                            {
+                                                "type": "globalMeta",
+                                                "key": "application.applicationId",
+                                                "paramKey": "applicationId"
+                                            },
+                                            {
+                                                "type": "globalMeta",
+                                                "key": "user.accountId",
+                                                "paramKey": "accountId"
+                                            },
+                                            {
+                                                "type": "globalMeta",
+                                                "key": "user.userId",
+                                                "paramKey": "userId"
+                                            },
+                                            {
+                                                "type": "globalMeta",
+                                                "key": "user.impersonate.aplId",
+                                                "paramKey": "impersonateAplId"
+                                            },
+                                            {
+                                                "type": "globalMeta",
+                                                "key": "user.impersonate.aplCode",
+                                                "paramKey": "impersonateAplCode"
+                                            },
+                                            {
+                                                "type": "globalMeta",
+                                                "key": "user.impersonate.accId",
+                                                "paramKey": "impersonateAccId"
+                                            },
+                                            {
+                                                "type": "meta",
+                                                "key": "componentId",
+                                                "paramKey": "componentId"
+                                            },
+                                            {
+                                                "type": "meta",
+                                                "key": "component",
+                                                "paramKey": "component"
+                                            },
+                                            {
+                                                "type": "meta",
+                                                "key": "linkId",
+                                                "paramKey": "linkId"
+                                            },
+                                            {
+                                                "type": "prop",
+                                                "key": "linkValue",
+                                                "paramKey": "linkValue"
+                                            },
+                                            {
+                                                "type": "prop",
+                                                "key": "pageIndex",
+                                                "paramKey": "pageIndex"
+                                            },
+                                            {
+                                                "type": "prop",
+                                                "key": "pageSize",
+                                                "paramKey": "pageSize"
+                                            },
+                                            {
+                                                "type": "prop",
+                                                "key": "searchData",
+                                                "paramKey": "searchData"
+                                            },
+                                            {
+                                                "type": "prop",
+                                                "key": "sortData",
+                                                "paramKey": "sortData"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "actionId": "0f3f6991b36711eeafe20a57c56cc3cc",
+                                        "action": "control-interface",
+                                        "type": "",
+                                        "beforeQScript": "",
+                                        "seq": 3,
+                                        "afterQScript": "",
+                                        "targetComponentId": "",
+                                        "path": null,
+                                        "mappingType": "",
+                                        "target": "",
+                                        "bindingPath": "",
+                                        "serviceId": "8be7394aab8b11eeafe20a57c56cc3cc",
+                                        "asyncFlag": "",
+                                        "controlId": "",
+                                        "userQScript": [],
+                                        "controls": [
+                                            {
+                                                "controlId": "7ac64e198cf011eeafe20a57c56cc3cc",
+                                                "componentId": "7ac64e198cf011eeafe20a57c56cc3cc",
+                                                "sourceComponentId": "",
+                                                "source": {
+                                                    "type": "fixedData",
+                                                    "prop": "",
+                                                    "value": true
+                                                },
+                                                "target": {
+                                                    "type": "meta",
+                                                    "controlId": "7ac64e198cf011eeafe20a57c56cc3cc",
+                                                    "meta": "readOnly"
+                                                }
+                                            }
+                                        ],
+                                        "lambda": null,
+                                        "params": null
+                                    },
+                                    {
+                                        "actionId": "0f41307bb36711eeafe20a57c56cc3cc",
+                                        "action": "control-interface",
+                                        "type": "",
+                                        "beforeQScript": "",
+                                        "seq": 5,
+                                        "afterQScript": "",
+                                        "targetComponentId": "",
+                                        "path": null,
+                                        "mappingType": "",
+                                        "target": "",
+                                        "bindingPath": "",
+                                        "serviceId": "8be7394aab8b11eeafe20a57c56cc3cc",
+                                        "asyncFlag": "",
+                                        "controlId": "",
+                                        "userQScript": [],
+                                        "controls": [
+                                            {
+                                                "controlId": "7ac64e198cf011eeafe20a57c56cc3cc",
+                                                "componentId": "7ac64e198cf011eeafe20a57c56cc3cc",
+                                                "sourceComponentId": "",
+                                                "source": {
+                                                    "type": "fixedData",
+                                                    "prop": "",
+                                                    "value": false
+                                                },
+                                                "target": {
+                                                    "type": "meta",
+                                                    "controlId": "7ac64e198cf011eeafe20a57c56cc3cc",
+                                                    "meta": "readOnly"
+                                                }
+                                            }
+                                        ],
+                                        "lambda": null,
+                                        "checkAction": {
+                                            "params": [
+                                                {
+                                                    "type": "urlParam",
+                                                    "key": "sysId",
+                                                    "keyType": "",
+                                                    "paramKey": "",
+                                                    "paramKeyType": "",
+                                                    "actType": "check",
+                                                    "value": "",
+                                                    "operator": "!==",
+                                                    "controlId": "",
+                                                    "actionId": "0f41307bb36711eeafe20a57c56cc3cc",
+                                                    "acpSeq": ""
+                                                }
+                                            ]
+                                        },
+                                        "params": null
+                                    },
+                                    {
+                                        "actionId": "f0ba5cd8ab8c11eeafe20a57c56cc3cc",
+                                        "action": "component-interface",
+                                        "type": "",
+                                        "beforeQScript": "",
+                                        "seq": 6,
+                                        "afterQScript": "",
+                                        "targetComponentId": "",
+                                        "path": null,
+                                        "mappingType": "",
+                                        "target": "",
+                                        "bindingPath": "",
+                                        "serviceId": "8be7394aab8b11eeafe20a57c56cc3cc",
+                                        "asyncFlag": "",
+                                        "controlId": "",
+                                        "userQScript": [],
+                                        "components": [
+                                            {
+                                                "reload": true,
+                                                "componentId": "32c66a57b10f11eeafe20a57c56cc3cc",
+                                                "sourceComponentId": "0609968d8cf911eeafe20a57c56cc3cc",
+                                                "source": {
+                                                    "type": "controlId",
+                                                    "prop": "",
+                                                    "value": "7ac6cd9f8cf011eeafe20a57c56cc3cc"
+                                                },
+                                                "target": {
+                                                    "type": "propName",
+                                                    "value": "linkValue",
+                                                    "prop": ""
+                                                }
+                                            },
+                                            {
+                                                "reload": true,
+                                                "componentId": "235639c8aaaa11eeafe20a57c56cc3cc",
+                                                "sourceComponentId": "",
+                                                "source": {
+                                                    "type": "controlId",
+                                                    "prop": "",
+                                                    "value": "7ac6cd9f8cf011eeafe20a57c56cc3cc"
+                                                },
+                                                "target": {
+                                                    "type": "propName",
+                                                    "value": "linkValue",
+                                                    "prop": ""
+                                                }
+                                            },
+                                            {
+                                                "reload": false,
+                                                "componentId": "235639c8aaaa11eeafe20a57c56cc3cc",
+                                                "sourceComponentId": "",
+                                                "source": {
+                                                    "type": "controlId",
+                                                    "prop": "",
+                                                    "value": "921180faab8611eeafe20a57c56cc3cc"
+                                                },
+                                                "target": {
+                                                    "type": "propName",
+                                                    "value": "LinkTierCyclRid",
+                                                    "prop": ""
+                                                }
+                                            }
+                                        ],
+                                        "lambda": null,
+                                        "params": null
+                                    },
+                                    {
+                                        "actionId": "b5b12ceeb36e11eeafe20a57c56cc3cc",
+                                        "action": "reloadComponent",
+                                        "type": "",
+                                        "beforeQScript": "",
+                                        "seq": 7,
+                                        "afterQScript": "",
+                                        "targetComponentId": "",
+                                        "path": null,
+                                        "mappingType": "",
+                                        "target": "",
+                                        "bindingPath": "",
+                                        "serviceId": "8be7394aab8b11eeafe20a57c56cc3cc",
+                                        "asyncFlag": "",
+                                        "controlId": "",
+                                        "userQScript": [],
+                                        "components": null,
+                                        "lambda": null,
+                                        "params": [
+                                            {
+                                                "type": "fixedData",
+                                                "key": "c4ee771c933211eeafe20a57c56cc3cc",
+                                                "keyType": "",
+                                                "paramKey": "componentId",
+                                                "paramKeyType": "",
+                                                "actType": "",
+                                                "value": "",
+                                                "operator": "",
+                                                "controlId": "",
+                                                "actionId": "b5b12ceeb36e11eeafe20a57c56cc3cc",
+                                                "acpSeq": ""
+                                            },
+                                            {
+                                                "type": "fixedData",
+                                                "key": "4a67b2cfa47111eeafe20a57c56cc3cc",
+                                                "keyType": "",
+                                                "paramKey": "componentId",
+                                                "paramKeyType": "",
+                                                "actType": "",
+                                                "value": "",
+                                                "operator": "",
+                                                "controlId": "",
+                                                "actionId": "b5b12ceeb36e11eeafe20a57c56cc3cc",
+                                                "acpSeq": ""
+                                            },
+                                            {
+                                                "type": "fixedData",
+                                                "key": "235639c8aaaa11eeafe20a57c56cc3cc",
+                                                "keyType": "",
+                                                "paramKey": "componentId",
+                                                "paramKeyType": "",
+                                                "actType": "",
+                                                "value": "",
+                                                "operator": "",
+                                                "controlId": "",
+                                                "actionId": "b5b12ceeb36e11eeafe20a57c56cc3cc",
+                                                "acpSeq": ""
+                                            },
+                                            {
+                                                "type": "fixedData",
+                                                "key": "8d0a64af8f3d11eeafe20a57c56cc3cc",
+                                                "keyType": "",
+                                                "paramKey": "componentId",
+                                                "paramKeyType": "",
+                                                "actType": "",
+                                                "value": "",
+                                                "operator": "",
+                                                "controlId": "",
+                                                "actionId": "b5b12ceeb36e11eeafe20a57c56cc3cc",
+                                                "acpSeq": ""
+                                            },
+                                            {
+                                                "type": "fixedData",
+                                                "key": "32c66a57b10f11eeafe20a57c56cc3cc",
+                                                "keyType": "",
+                                                "paramKey": "componentId",
+                                                "paramKeyType": "",
+                                                "actType": "",
+                                                "value": "",
+                                                "operator": "",
+                                                "controlId": "",
+                                                "actionId": "b5b12ceeb36e11eeafe20a57c56cc3cc",
+                                                "acpSeq": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "prop": {
+                            "controlSpacing": {
+                                "colSpacing": 15,
+                                "rowSpacing": 20
+                            },
+                            "collapseDisabled": true
+                        },
+                        "style": {},
+                        "controls": [
+                            {
+                                "controlId": "7acc9fe98cf011eeafe20a57c56cc3cc",
+                                "comId": "7ac557d58cf011eeafe20a57c56cc3cc",
+                                "component": "vQSText",
+                                "fieldId": "8f35689f73b911eeafe20a57c56cc3cc",
+                                "fieldTitle": "tierGrpNm",
+                                "fieldType": "STRING",
+                                "title": "SYM_TIER_GRP_NM",
+                                "customTitle": "",
+                                "placeHolderUseFlag": true,
+                                "placeHolder": "",
+                                "customPlaceHolder": "",
+                                "seq": 1,
+                                "hidden": false,
+                                "conReadOnly": false,
+                                "conRequired": true,
+                                "objDefaultValue": "",
+                                "conDefaultValue": "",
+                                "conDefaultValueType": "",
+                                "commCode": "",
+                                "objReadOnly": false,
+                                "objRequired": false,
+                                "enabled": true,
+                                "chartDataType": "",
+                                "calcFlag": false,
+                                "joinFlag": false,
+                                "maskFlag": false,
+                                "colEncFlag": false,
+                                "readOnly": false,
+                                "required": true,
+                                "defaultValue": "",
+                                "data": "",
+                                "scriptFlag": false,
+                                "events": null,
+                                "prop": {
+                                    "heightUnitCnt": 0,
+                                    "span": 6
+                                },
+                                "style": {}
+                            },
+                            {
+                                "controlId": "7acd0c508cf011eeafe20a57c56cc3cc",
+                                "comId": "7ac557d58cf011eeafe20a57c56cc3cc",
+                                "component": "vQSText",
+                                "fieldId": "8f38c98f73b911eeafe20a57c56cc3cc",
+                                "fieldTitle": "tierGrpMngno",
+                                "fieldType": "STRING",
+                                "title": "SYM_TIER_GRP_MNGNO",
+                                "customTitle": "",
+                                "placeHolderUseFlag": true,
+                                "placeHolder": "",
+                                "customPlaceHolder": "",
+                                "seq": 5,
+                                "hidden": false,
+                                "conReadOnly": false,
+                                "conRequired": true,
+                                "objDefaultValue": "",
+                                "conDefaultValue": "",
+                                "conDefaultValueType": "",
+                                "commCode": "",
+                                "objReadOnly": false,
+                                "objRequired": false,
+                                "enabled": true,
+                                "chartDataType": "",
+                                "calcFlag": false,
+                                "joinFlag": false,
+                                "maskFlag": false,
+                                "colEncFlag": false,
+                                "readOnly": false,
+                                "required": true,
+                                "defaultValue": "",
+                                "data": "",
+                                "scriptFlag": false,
+                                "events": null,
+                                "prop": {
+                                    "heightUnitCnt": 0,
+                                    "span": 6
+                                },
+                                "style": {}
+                            },
+                            {
+                                "controlId": "7acb3d888cf011eeafe20a57c56cc3cc",
+                                "comId": "7ac557d58cf011eeafe20a57c56cc3cc",
+                                "component": "vQSText",
+                                "fieldId": "0aeb887a73bc11eeafe20a57c56cc3cc",
+                                "fieldTitle": "empCreator",
+                                "fieldType": "STRING",
+                                "title": "SYM_REGR",
+                                "customTitle": "",
+                                "placeHolderUseFlag": true,
+                                "placeHolder": "",
+                                "customPlaceHolder": "",
+                                "seq": 9,
+                                "hidden": false,
+                                "conReadOnly": true,
+                                "conRequired": false,
+                                "objDefaultValue": "",
+                                "conDefaultValue": "",
+                                "conDefaultValueType": "",
+                                "commCode": "",
+                                "objReadOnly": false,
+                                "objRequired": false,
+                                "enabled": true,
+                                "chartDataType": "",
+                                "calcFlag": false,
+                                "joinFlag": true,
+                                "maskFlag": false,
+                                "colEncFlag": false,
+                                "readOnly": true,
+                                "required": false,
+                                "defaultValue": "",
+                                "data": "",
+                                "scriptFlag": false,
+                                "events": null,
+                                "prop": {
+                                    "heightUnitCnt": 0,
+                                    "span": 6
+                                },
+                                "style": {}
+                            },
+                            {
+                                "controlId": "7acbc2508cf011eeafe20a57c56cc3cc",
+                                "comId": "7ac557d58cf011eeafe20a57c56cc3cc",
+                                "component": "vQSText",
+                                "fieldId": "29e9e17473bc11eeafe20a57c56cc3cc",
+                                "fieldTitle": "empModifier",
+                                "fieldType": "STRING",
+                                "title": "SYM_MODIFY_BY",
+                                "customTitle": "",
+                                "placeHolderUseFlag": true,
+                                "placeHolder": "",
+                                "customPlaceHolder": "",
+                                "seq": 11,
+                                "hidden": false,
+                                "conReadOnly": true,
+                                "conRequired": false,
+                                "objDefaultValue": "",
+                                "conDefaultValue": "",
+                                "conDefaultValueType": "",
+                                "commCode": "",
+                                "objReadOnly": false,
+                                "objRequired": false,
+                                "enabled": true,
+                                "chartDataType": "",
+                                "calcFlag": false,
+                                "joinFlag": true,
+                                "maskFlag": false,
+                                "colEncFlag": false,
+                                "readOnly": true,
+                                "required": false,
+                                "defaultValue": "",
+                                "data": "",
+                                "scriptFlag": false,
+                                "events": null,
+                                "prop": {
+                                    "heightUnitCnt": 0,
+                                    "span": 6
+                                },
+                                "style": {}
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

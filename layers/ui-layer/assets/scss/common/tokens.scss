@@ -1,0 +1,132 @@
+:root {
+  --el-menu-item-height: 44px;
+  --el-menu-sub-item-height: 36px;
+  --el-menu-horizontal-height: 44px;
+  --el-menu-horizontal-sub-item-height: 36px;
+
+  --el-menu-base-level-padding: 15px;
+  --el-menu-level-padding: 15px;
+  --el-menu-icon-width: 20px;
+
+  --qs-layout-scrollbar-width: 6px;
+  --qs-layout-font-size-root: 14px;
+
+  --qs-layout-padding: 16px;
+  --qs-layout-header-height: 60px;
+  --qs-layout-tags-height: 40px;
+  --qs-layout-aside-width: 250px;
+  --qs-layout-aside-banner-height: 140px;
+
+  --qs-layout-item-padding: calc(var(--qs-layout-padding) / 2);
+  --qs-layout-item-border-radius: var(--el-border-radius-round);
+  --qs-layout-item-background-color: rgba(255, 255, 255, 0.8);
+
+  --qs-control-padding: 8px;
+}
+
+html {
+  &.green {
+    --el-color-primary: #5796ad;
+    --el-color-primary-light-3: #89b6c6;
+    --el-color-primary-light-5: #abcbd6;
+    --el-color-primary-light-7: #cde0e6;
+    --el-color-primary-light-8: #ddeaef;
+    --el-color-primary-light-9: #eef5f7;
+    --el-color-primary-dark-2: #46788a;
+    --el-color-primary-rgb: 87, 150, 173;
+
+    &.dark {
+      --el-color-primary: #5796ad;
+      --el-color-primary-light-3: #436f7f;
+      --el-color-primary-light-5: #365561;
+      --el-color-primary-light-7: #283b42;
+      --el-color-primary-light-8: #212e33;
+      --el-color-primary-light-9: #1b2123;
+      --el-color-primary-dark-2: #79abbd;
+    }
+  }
+
+  &.yellow {
+    --el-color-primary: #ffb800;
+    --el-color-primary-light-3: #ffcd4d;
+    --el-color-primary-light-5: #ffdc80;
+    --el-color-primary-light-7: #ffeab3;
+    --el-color-primary-light-8: #fff1cc;
+    --el-color-primary-light-9: #fff8e6;
+    --el-color-primary-dark-2: #cc9300;
+    --el-color-primary-rgb: 255, 184, 0;
+
+    &.dark {
+      --el-color-primary: #ffb800;
+      --el-color-primary-light-3: #b98706;
+      --el-color-primary-light-5: #8a660a;
+      --el-color-primary-light-7: #5b450e;
+      --el-color-primary-light-8: #433510;
+      --el-color-primary-light-9: #2c2412;
+      --el-color-primary-dark-2: #ffc633;
+    }
+  }
+
+  &.green_2 {
+    --el-color-primary: #328a23;
+    --el-color-primary-light-3: #70ad65;
+    --el-color-primary-light-5: #99c591;
+    --el-color-primary-light-7: #c2dcbd;
+    --el-color-primary-light-8: #d6e8d3;
+    --el-color-primary-light-9: #ebf3e9;
+    --el-color-primary-dark-2: #286e1c;
+    --el-color-primary-rgb: 50, 138, 35;
+
+    &.dark {
+      --el-color-primary: #328a23;
+      --el-color-primary-light-3: #29671f;
+      --el-color-primary-light-5: #234f1c;
+      --el-color-primary-light-7: #1d3719;
+      --el-color-primary-light-8: #1a2c17;
+      --el-color-primary-light-9: #172016;
+      --el-color-primary-dark-2: #5ba14f;
+    }
+  }
+
+  &.purple {
+    --el-color-primary: #9065db;
+    --el-color-primary-light-3: #b193e6;
+    --el-color-primary-light-5: #c8b2ed;
+    --el-color-primary-light-7: #ded1f4;
+    --el-color-primary-light-8: #e9e0f8;
+    --el-color-primary-light-9: #f4f0fb;
+    --el-color-primary-dark-2: #7351af;
+    --el-color-primary-rgb: 144, 101, 219;
+
+    &.dark {
+      --el-color-primary: #9065db;
+      --el-color-primary-light-3: #6b4d9f;
+      --el-color-primary-light-5: #523d78;
+      --el-color-primary-light-7: #392c50;
+      --el-color-primary-light-8: #2d243c;
+      --el-color-primary-light-9: #201c28;
+      --el-color-primary-dark-2: #a684e2;
+    }
+  }
+
+  &.navy {
+    --el-color-primary: #0d2851;
+    --el-color-primary-light-3: #566985;
+    --el-color-primary-light-5: #8694a8;
+    --el-color-primary-light-7: #b6bfcb;
+    --el-color-primary-light-8: #cfd4dc;
+    --el-color-primary-light-9: #e7eaee;
+    --el-color-primary-dark-2: #0a2041;
+    --el-color-primary-rgb: 13, 40, 81;
+
+    &.dark {
+      --el-color-primary: #0d2851;
+      --el-color-primary-light-3: #0f223f;
+      --el-color-primary-light-5: #111e33;
+      --el-color-primary-light-7: #121a26;
+      --el-color-primary-light-8: #131820;
+      --el-color-primary-light-9: #13161a;
+      --el-color-primary-dark-2: #3d5374;
+    }
+  }
+}

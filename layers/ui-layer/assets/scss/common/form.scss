@@ -1,0 +1,43 @@
+.qs-control {
+    &.el-form {
+        --el-form-label-font-size: var(--el-font-size-base);
+        --el-form-inline-content-width: 100%;
+    }    
+    
+    .qs-control-item {                        
+        min-height: var(--el-component-size);
+        margin-bottom: var(--qs-control-padding);
+        border-radius: var(--el-border-radius-base);
+        overflow: hidden;
+
+        .el-form-item__label {
+            height: var(--el-component-size);
+            line-height: var(--el-component-size);
+        }  
+        
+        .qs-control-data {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            min-height: var(--el-component-size);
+
+            .el-input__wrapper,
+            .el-input__inner {
+                background-color: transparent;
+            }
+
+            .el-input-number {
+                width: 100%;
+            }
+
+            .el-select {
+                width: 100%;
+                line-height: initial;
+            }
+
+            .el-date-editor {
+                --el-date-editor-width: 100%;
+            }
+        }
+    }
+} 

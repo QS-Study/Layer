@@ -1,0 +1,36 @@
+.el-form-item__label {
+    display: block;
+    height: initial;
+    line-height: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: inherit;
+    font-style: inherit;
+    text-align: inherit;
+    color: inherit;
+    background-color: inherit;
+}  
+
+.el-form-item__content {
+    line-height: initial;
+}
+
+.el-form-item {
+    margin-bottom: var(--qs-control-padding);
+
+    .el-input-group__append, 
+    .el-input-group__prepend {
+        padding: 0 calc(var(--el-component-size) / 2);
+    }
+
+    .el-divider--horizontal {
+        margin: initial;
+    } 
+}
+
+.el-form--default.el-form--label-top .el-form-item .el-form-item__label {
+    height: var(--el-component-size);
+    line-height: var(--el-component-size);
+    margin: initial;
+}

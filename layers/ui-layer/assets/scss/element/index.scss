@@ -1,0 +1,31 @@
+// @forward 'element-plus/theme-chalk/src/mixins/config.scss' with ($namespace: 'qs'
+// );
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with ($colors: ('primary': ('base': #5796ad)),
+  $font-family: ('': "'Noto Sans KR', sans-serif"),
+  $font-size: ('extra-large': 20px,
+    // 'large': 16px,
+    // 'medium': 14px,
+    // 'base': 12.5px,
+    // 'small': 11px,
+    // 'extra-small': 10px,
+    'large': 1.5rem,
+    'medium': 1.25rem,
+    'base': 1rem,
+    'small': 0.75rem,
+    'extra-small': 0.5rem,
+  ),
+  $common-component-size: ( // 'large': 36px,
+    // 'default': 28px,
+    // 'small': 20px,
+    'large': 2.6rem,
+    'default': 2.2rem,
+    'small': 1.6rem,
+  ),
+  $border-radius: ('round': 8px,
+  ),
+  $text-color: ('primary': #000000,
+    'regular': #111111,
+  ));
+
+@import "dark.scss";

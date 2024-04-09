@@ -1,51 +1,39 @@
-<script setup lang="ts">
-import { AppLayout, AppNavbar, ColorModeSwitch } from '#components';
+<script lang="ts" setup>
+import {useBaseComponent} from '@/composables'
 
-interface ComponentProps {
-  colSpacing: number;
-  rowSpacing: number;
-  span: number;
-  offset: number;
-  controls: any;
+interface vQSFormProps {
+  componentId: string
+  screenId: string
 }
 
-const componentMap: any = {
-  AppLayout,
-  AppNavbar,
-  ColorModeSwitch,
-};
 
-function getComponent(component: string) {
-  return componentMap[component];
-}
+const props = defineProps<vQSFormProps>()
 
-const props = defineProps<ComponentProps>();
+const {
+
+} = useBaseComponent<QSFormProp, any>(props.screenId, props.componentId)
+
+debugger
+
+
 </script>
 
 <template>
   <div class="qs-component">
-    <el-row :gutter="props.colSpacing" class="qs-form">
+    <el-row class="qs-screen-row default" :gutter="10" style="grid-template-rows: repeat(24, 1fr);grid-template-columns: repeat(24, 1fr);">
       <el-col
-        v-for="control in props.controls"
+        v-for="(control, index) in props.controls"
         :key="control.controlId"
-        :span="props.span"
-        :offset="props.offset">
-        <vQSText />
-        <Select />
+        class="qs-screen-col" 
+        style="grid-area: span 24 / span 24;"
+      >
         <component
-          :is="ColorModeSwitch"
-          :key="control.controlId"
-          :col-spacing="props.colSpacing"
-          :row-spacing="props.rowSpacing" />
+          :is="control.component"
+        />   
       </el-col>
     </el-row>
   </div>
-</template>
 
-<style scoped>
-.qs-component {
-  width: 500px;
-  height: 200px;
-  border: 1px solid red;
-}
-</style>
+
+
+</template>

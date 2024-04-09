@@ -1,0 +1,84 @@
+.qs-component {
+    min-height: 100%;
+    padding: var(--qs-layout-padding);
+    border-radius: var(--qs-layout-item-border-radius);
+    // border: 1px solid var(--el-border-color);
+    background-color: var(--qs-layout-item-background-color);
+    position: relative;
+
+    .el-collapse {
+        --el-collapse-header-height: initial;
+        --el-collapse-border-color: var(--el-border-color-dark);
+        --el-collapse-header-bg-color: initial;
+        --el-collapse-content-bg-color: initial;
+
+        border: initial;
+
+        &-item__header {
+            border: initial;
+            font-weight: 700;
+        }
+
+        &-item__wrap {
+            border: initial;
+        }
+
+        &-item__content {
+            line-height: 1;
+            padding-top: var(--qs-layout-padding);
+            padding-bottom: initial;
+            margin-top: var(--qs-layout-padding);
+            border-top: 1px solid var(--el-collapse-border-color);
+        }
+    }
+
+    &.is-folder {
+        margin-left: 8px;
+        border-color: transparent;
+        border-radius: 0 var(--qs-layout-item-border-radius) var(--qs-layout-item-border-radius);
+
+        &::before {
+            display: block;
+            content: "";
+            width: 8px;
+            height: 50%;
+            max-height: 120px;
+            border-radius: var(--qs-layout-item-border-radius) 0 0 var(--qs-layout-item-border-radius);
+            background-color: var(--qs-layout-item-background-color);
+            position: absolute;
+            top: 0;
+            left: -8px;
+        }
+    }
+}
+
+.qs-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 var(--qs-control-padding);
+
+    &__title {
+        margin: initial;
+        font-size: 1rem;
+    }
+
+    &__wrap {
+        display: flex;
+        column-gap: var(--qs-control-padding);
+        z-index: 9;
+    }
+}
+
+.tags-group {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: var(--qs-layout-tags-height);
+
+    .el-tag {
+        height: var(--el-component-size);
+        cursor: pointer;
+    }
+}
