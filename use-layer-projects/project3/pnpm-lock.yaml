@@ -9,11 +9,11 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2(@element-plus/icons-vue@2.3.1)(@unocss/reset@0.58.9)(element-plus@2.6.3)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
   '@kt-test/form':
-    specifier: ^1.0.0
-    version: 1.0.0(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
+    specifier: ^1.0.6
+    version: 1.0.6(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
   '@kt-test/ui-layer':
-    specifier: ^1.0.9
-    version: 1.0.9(@element-plus/icons-vue@2.3.1)(@unocss/reset@0.58.9)(element-plus@2.6.3)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
+    specifier: ^1.0.13
+    version: 1.0.13(@element-plus/icons-vue@2.3.1)(@unocss/reset@0.58.9)(element-plus@2.6.3)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
   dayjs:
     specifier: ^1.11.10
     version: 1.11.10
@@ -873,11 +873,12 @@ packages:
       - xml2js
     dev: false
 
-  /@kt-test/form@1.0.0(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8):
-    resolution: {integrity: sha512-xQAqLvZWZmx3T8kUry07LR73VpTRRQrRhquUhzS0rnGJNE5kbAwvOSKdFbP6MqxSDuj0J2b2ZPCavJHGgxU1OQ==}
+  /@kt-test/form@1.0.6(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8):
+    resolution: {integrity: sha512-6jlMHddynplMmW26EzaKBX9layfIIM/rV2unXMcmYFB+7nX8BzFb2nVnrThW0ymoQNlg7ue+YWoCPcEjFJy9VA==}
     requiresBuild: true
     dependencies:
-      '@kt-test/text': 1.0.0(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
+      '@kt-test/select': 1.0.3(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
+      '@kt-test/text': 1.0.2(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
       '@kt-test/textarea': 1.0.0(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8)
       nuxt: 3.11.2(@unocss/reset@0.58.9)(floating-vue@5.2.2)(sass@1.74.1)(unocss@0.58.9)(vite@5.2.8)
       vue: 3.4.21
@@ -940,8 +941,73 @@ packages:
       - xml2js
     dev: false
 
-  /@kt-test/text@1.0.0(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8):
-    resolution: {integrity: sha512-3bZetB0hPTy5JOSBdG6sXSpgmgQ+jhpR6HHeMsloPK5iV0dh7sgzWrUMXidVLM2syS4uDfwCUGXmpDaflvYZKw==}
+  /@kt-test/select@1.0.3(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8):
+    resolution: {integrity: sha512-LFWpb5cVJsNRK2jKXve0GVGRFwk9tyeVSYqi49Hwwbwj5BO5AQ8/6zt8I9o6etiIlkaQ47etDI6hCtvYdal9SQ==}
+    requiresBuild: true
+    dependencies:
+      nuxt: 3.11.2(@unocss/reset@0.58.9)(floating-vue@5.2.2)(sass@1.74.1)(unocss@0.58.9)(vite@5.2.8)
+      vue: 3.4.21
+      vue-router: 4.3.0(vue@3.4.21)
+    transitivePeerDependencies:
+      - '@azure/app-configuration'
+      - '@azure/cosmos'
+      - '@azure/data-tables'
+      - '@azure/identity'
+      - '@azure/keyvault-secrets'
+      - '@azure/storage-blob'
+      - '@capacitor/preferences'
+      - '@libsql/client'
+      - '@netlify/blobs'
+      - '@parcel/watcher'
+      - '@planetscale/database'
+      - '@types/node'
+      - '@unocss/reset'
+      - '@upstash/redis'
+      - '@vercel/kv'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - better-sqlite3
+      - bluebird
+      - bufferutil
+      - change-case
+      - drauu
+      - drizzle-orm
+      - encoding
+      - eslint
+      - floating-vue
+      - fuse.js
+      - idb-keyval
+      - ioredis
+      - jwt-decode
+      - less
+      - lightningcss
+      - meow
+      - nprogress
+      - optionator
+      - qrcode
+      - rollup
+      - sass
+      - sortablejs
+      - stylelint
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uWebSockets.js
+      - universal-cookie
+      - unocss
+      - utf-8-validate
+      - vite
+      - vls
+      - vti
+      - vue-tsc
+      - xml2js
+    dev: false
+
+  /@kt-test/text@1.0.2(@unocss/reset@0.58.9)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8):
+    resolution: {integrity: sha512-XFx1q0pZSHoKp4FJMfOn6ZV94eB9LQ77yCjfyxk1opfE/D7Wvbhq3Bl6BcNiF2gFN0qIxbrfsMikfPBQfxqwVA==}
     requiresBuild: true
     dependencies:
       nuxt: 3.11.2(@unocss/reset@0.58.9)(floating-vue@5.2.2)(sass@1.74.1)(unocss@0.58.9)(vite@5.2.8)
@@ -1070,8 +1136,8 @@ packages:
       - xml2js
     dev: false
 
-  /@kt-test/ui-layer@1.0.9(@element-plus/icons-vue@2.3.1)(@unocss/reset@0.58.9)(element-plus@2.6.3)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8):
-    resolution: {integrity: sha512-dDlyMKXvLTuKv7v3GZkvo9Mj2yhMtiZqlVizLgOKYbC6ca0AKuwfZE85zj+CCKkBt4vZ9gTWB8R8cDfDRHpMxA==}
+  /@kt-test/ui-layer@1.0.13(@element-plus/icons-vue@2.3.1)(@unocss/reset@0.58.9)(element-plus@2.6.3)(floating-vue@5.2.2)(unocss@0.58.9)(vite@5.2.8):
+    resolution: {integrity: sha512-dQ0UCFMMiFOw8OZFD40fDfGYr2JIUq4W2tXtOoipoQglGPd6kRyw+uYYsejFdybsx12eiyb2Qqn+0qS6b0D1Yg==}
     requiresBuild: true
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.5.2

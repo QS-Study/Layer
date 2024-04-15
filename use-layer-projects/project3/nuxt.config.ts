@@ -9,9 +9,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   extends:[
-    // '../../layers/ui-layer',
+    '../../layers/ui-layer',
     '@kt-test/el-plus-layer',
-    '@kt-test/ui-layer',
+    // '@kt-test/ui-layer',
     '@kt-test/form',
   ],
   components: {

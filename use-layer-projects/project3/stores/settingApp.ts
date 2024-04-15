@@ -1,117 +1,165 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
+import { useMetaStore } from './meta'
 
-export const SettingAppStore = defineStore('SettingApp', {
-  state: () => ({
-    layoutType: ref('horizontal'),
-    layoutDarkMode: ref(false),
-    layoutThemeColor: ref('green'),
-    layoutThemeBg: ref(''),
-    layoutLogoInfo: ref({ title: 'CALS', src: '/img/logo.png', alt: '' }),
+export const SettingAppStore = defineStore('SettingApp', () => {
+  const metaStore = useMetaStore()
 
-    layoutMenuType: ref('vertical'),
-    layoutMenuCollapse: ref(false),
-    layoutMainExpand: ref(false),
+  const  layoutType = ref('horizontal')
+   const layoutDarkMode = ref(false)
+   const layoutThemeColor = ref('green')
+   const layoutThemeBg = ref('')
+   const layoutLogoInfo = ref({ title: 'CALS', src: '/img/logo.png', alt: '' })
 
-    panelPopup: ref(false),
-    panelRight: ref(false),
-    panelBottom: ref(false),
+   const layoutMenuType= ref('vertical')
+   const layoutMenuCollapse= ref(false)
+   const layoutMainExpand= ref(false)
 
-    headerBanner: ref({ use: true, src: "/img/banner-header.png", alt: '' }),
-    asideBanner: ref({ use: true, src: "/img/banner-aside.png", alt: '' }),
+   const panelPopup= ref(false)
+   const panelRight= ref(false)
+   const panelBottom= ref(false)
 
-    headerOptionMainExpand: ref(true),
-    headerOptionotification: ref({ use: true, activeItem: ['Reverse'] }),
-    headerOptionSiteMap: ref(true),
-    headerOptionAppInfo: ref({ use: true, activeItem: ['Screen', 'Version'] }),
-    headerOptionLanguage: ref({ use: true, activeItem: ['ENG', 'KOR'] }),
-    headerOptionUserInfo: ref({ use: true, activeItem: ['My', 'IP', 'Logout'] }),
+   const headerBanner= ref({ use: true, src: "/img/banner-header.png", alt: '' })
+   const asideBanner= ref({ use: true, src: "/img/banner-aside.png", alt: '' })
 
-    scale: ref(13),
-    spacing: ref(8),
-    alpha: ref(0.8),
-    maskColor: ref('rgba(255,255,255,0.8)'),
-    primaryColor: ref('#5796ad'),
+   const headerOptionMainExpand= ref(true)
+   const headerOptionotification= ref({ use: true, activeItem: ['Reverse'] })
+   const headerOptionSiteMap= ref(true)
+   const headerOptionAppInfo= ref({ use: true, activeItem: ['Screen', 'Version'] })
+   const headerOptionLanguage= ref({ use: true, activeItem: ['ENG', 'KOR'] })
+   const headerOptionUserInfo= ref({ use: true, activeItem: ['My', 'IP', 'Logout'] })
 
-    screenFull: ref(false),
-    componentOutlineType: ref('basic'),
-    progressIcon: ref('basic'),
+   const scale= ref(13)
+   const spacing= ref(8)
+   const alpha= ref(0.8)
+   const maskColor= ref('rgba(255,255,255,0.8)')
+   const primaryColor= ref('#5796ad')
 
-    loginLogo: ref({ use: true, src: "/img/login-logo.png", alt: '' }),
-    loginBanner: ref({ use: true, src: "/img/login-banner.png", alt: '' }),
+   const screenFull= ref(false)
+   const componentOutlineType= ref('basic')
+   const progressIcon= ref('basic')
 
-    currentScreen: ref('default'),
-    currentComponent: ref('form'),
+   const loginLogo= ref({ use: true, src: "/img/login-logo.png", alt: '' })
+   const loginBanner= ref({ use: true, src: "/img/login-banner.png", alt: '' })
 
-    menuList: [
-      { id: '10', title: 'Home', path: '/', icon: 'house', hidden: false, menus: [] },
-      { id: '20', title: 'Screen', path: '/screen', icon: 'sliders', hidden: false, menus: [], },
-      {
-        id: '30', title: 'Component', path: '/component', icon: 'wrench', hidden: false, menus: [
-          { id: '301', title: 'ToolbarForm', path: '/component', icon: '', hidden: false, menus: [] },
-          { id: '302', title: 'ToolbarList', path: '/component', icon: '', hidden: false, menus: [] },
-          { id: '303', title: 'Toolbar', path: '/component', icon: '', hidden: true, menus: [] },
-        ],
-      },
-    ],
-    tagsList: [
+   const currentScreen= ref('default')
+   const currentComponent= ref('form')
+
+   const menuList= ref([])
+  
+    const tagsList= [
       { id: '10', title: 'Home', path: '/' },
       { id: '20', title: 'Screen', path: '/Screen' },
       { id: '30', title: 'Component', path: '/component' },
       
-    ],
-  }),
-  getters: {},
-  actions: {
-    changeScale() {
-      document.documentElement.style.setProperty('font-size', `${this.scale}px`)
-    },
+    ]
+  
+  
+   function setMenuList() {
+    // { id: '10', title: 'Home', path: '/', icon: 'house', hidden: false, menus: [] },
+    // { id: '20', title: 'Screen', path: '/screen', icon: 'sliders', hidden: false, menus: [], },
+    // {
+    //   id: '30', title: 'Component', path: '/component', icon: 'wrench', hidden: false, menus: [
+    //     { id: '301', title: 'ToolbarForm', path: '/component', icon: '', hidden: false, menus: [] },
+    //     { id: '302', title: 'ToolbarList', path: '/component', icon: '', hidden: false, menus: [] },
+    //     { id: '303', title: 'Toolbar', path: '/component', icon: '', hidden: true, menus: [] },
+    //   ]
+    // }
+    menuList.value = metaStore.getUserData.value.menus
+   }
+  
+   function changeScale() {
+      document.documentElement.style.setProperty('font-size', `${scale.value}px`)
+    }
 
-    changeSpacing() {
-      document.documentElement.style.setProperty('--qs-layout-padding', `${this.spacing}px`)
-    },
+    function changeSpacing() {
+      document.documentElement.style.setProperty('--qs-layout-padding', `${spacing.value}px`)
+    }
 
-    changeAlpha() {
-      if (this.layoutDarkMode)
-        this.maskColor = `rgba(0,0,0,${this.alpha})`
+    function changeAlpha() {
+      if (layoutDarkMode.value)
+        maskColor.value = `rgba(0,0,0,${alpha.value})`
       else
-        this.maskColor = `rgba(255,255,255,${this.alpha})`
+        maskColor.value = `rgba(255,255,255,${alpha.value})`
 
       // document.querySelector('.app-layout')?.setAttribute('style', `--qs-layout-item-background-color: ${this.maskColor}`)
-      document.documentElement.style.setProperty('--qs-layout-item-background-color', `${this.maskColor}`)
-    },
+      document.documentElement.style.setProperty('--qs-layout-item-background-color', `${maskColor.value}`)
+    }
 
-    changeMode() {
-      if (this.layoutDarkMode) {
+    function changeMode() {
+      if (layoutDarkMode.value) {
         document.querySelector('html')?.classList.add('dark')
-        this.layoutDarkMode = true
+        layoutDarkMode.value = true
       } else {
         document.querySelector('html')?.classList.remove('dark')
-        this.layoutDarkMode = false
+        layoutDarkMode.value = false
       }
-      this.changeAlpha()
-    },
+      changeAlpha()
+    }
 
-    changeTheme(theme: string) {
-      if (this.layoutThemeColor !== theme) {
-        document.querySelector('html')?.classList.remove(this.layoutThemeColor)
-        this.layoutThemeColor = theme
+   function  changeTheme(theme: string) {
+      if (layoutThemeColor.value !== theme) {
+        document.querySelector('html')?.classList.remove(layoutThemeColor.value)
+        layoutThemeColor.value = theme
         document.querySelector('html')?.classList.add(theme)
       }
-    },
+    }
 
-    changeLayout(layout: string) {
-      if (this.layoutType !== layout) {
+    function changeLayout(layout: string) {
+      if (layoutType.value !== layout) {
         if (layout == 'vertical') {
-          this.layoutType = 'vertical'
-          this.layoutMenuType = 'horizontal'
-          this.layoutMenuCollapse = false
+          layoutType.value = 'vertical'
+          layoutMenuType.value = 'horizontal'
+          layoutMenuCollapse.value = false
         } else {
-          this.layoutType = 'horizontal'
-          this.layoutMenuType = 'vertical'
-          this.layoutMenuCollapse = false
+          layoutType.value = 'horizontal'
+          layoutMenuType.value = 'vertical'
+          layoutMenuCollapse.value = false
         }
       }
-    },
-  },
+    }
+
+
+    return {
+      layoutType,
+      layoutDarkMode,
+      layoutThemeColor,
+      layoutThemeBg,
+      layoutLogoInfo,
+      layoutMenuType,
+      layoutMenuCollapse,
+      layoutMainExpand,
+      panelPopup,
+      panelRight,
+      panelBottom,
+      headerBanner,
+      asideBanner,
+      headerOptionMainExpand,
+      headerOptionotification,
+      headerOptionSiteMap,
+      headerOptionAppInfo,
+      headerOptionLanguage,
+      headerOptionUserInfo,
+      scale,
+      spacing,
+      alpha,
+      maskColor,
+      primaryColor,
+      screenFull,
+      componentOutlineType,
+      progressIcon,
+      loginLogo,
+      loginBanner,
+      currentScreen,
+      currentComponent,
+      menuList,
+      tagsList,
+      changeScale,
+      changeSpacing,
+      changeAlpha,
+      changeMode,
+      changeTheme,
+      changeLayout,
+      setMenuList
+    }
 })

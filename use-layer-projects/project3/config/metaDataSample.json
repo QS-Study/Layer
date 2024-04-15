@@ -793,7 +793,52 @@
                                     "heightUnitCnt": 0,
                                     "span": 6
                                 },
-                                "style": {}
+                                "style": {
+                                    "font": {
+                                        "size": {
+                                            "value": 17,
+                                            "unit": "px",
+                                            "format": ""
+                                        },
+                                        "bold": {
+                                            "value": "1",
+                                            "unit": "",
+                                            "format": ""
+                                        },
+                                        "italic": {
+                                            "value": "1",
+                                            "unit": "",
+                                            "format": ""
+                                        }
+                                    },
+                                    "textAlign": {
+                                        "value": "right",
+                                        "unit": "",
+                                        "format": ""
+                                    },
+                                    "foreColor": {
+                                        "value": "122C8C",
+                                        "unit": "",
+                                        "format": "hex"
+                                    },
+                                    "backColor": {
+                                        "value": "FCFCE5",
+                                        "unit": "",
+                                        "format": "hex"
+                                    },
+                                    "flatAppearance": {
+                                        "borderSize": {
+                                            "value": 2,
+                                            "unit": "px",
+                                            "format": ""
+                                        },
+                                        "borderColor": {
+                                            "value": "2ADDD7",
+                                            "unit": "",
+                                            "format": "hex"
+                                        }
+                                    }
+                                }
                             },
                             {
                                 "controlId": "control_sysId2",
@@ -827,6 +872,45 @@
                                 "defaultValue": "* 컴포넌트 및 컨트롤 테스트를 위해 추가해야 하는 것들\\n1. menus 추가\\n- menuId: 임의의 sysId를 생성한다.\\n- title: locales.symstr 값을 추가 한다. (en-Us, ko-KR)\\n- path: 이동할 url 설정(중복X)\\n- chidren: 자식 메뉴 추가를 위해 존재\\n\\n2. screens 추가\\n- screenId: 임의의 sysId를 생성한다.(중복X)\\n- path: 연결할 menu의 path와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n3. components\\n- componentId: 임의의 sysId를 생성한다.(중복X)\\n- scnId: 연결할 screen의 screenId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n4. controls\\n- controlId: 임의의 sysId를 생성한다.\\n- comId: 연결할 component의 componentId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n",
                                 "scriptFlag": false,
                                 "data": "* 컴포넌트 및 컨트롤 테스트를 위해 추가해야 하는 것들\\n1. menus 추가\\n- menuId: 임의의 sysId를 생성한다.\\n- title: locales.symstr 값을 추가 한다. (en-Us, ko-KR)\\n- path: 이동할 url 설정(중복X)\\n- chidren: 자식 메뉴 추가를 위해 존재\\n\\n2. screens 추가\\n- screenId: 임의의 sysId를 생성한다.(중복X)\\n- path: 연결할 menu의 path와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n3. components\\n- componentId: 임의의 sysId를 생성한다.(중복X)\\n- scnId: 연결할 screen의 screenId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n\\n4. controls\\n- controlId: 임의의 sysId를 생성한다.\\n- comId: 연결할 component의 componentId와 동일한 값을 설정한다.\\n- title: 1번과 동일\\n",
+                                "events": null,
+                                "prop": {
+                                    "span": 24,
+                                    "heightUnitCnt": 5
+                                },
+                                "style": {}
+                            },
+                            {
+                                "controlId": "control_sysId3",
+                                "comId": "component_sysId1",
+                                "component": "vQSSelect",
+                                "fieldId": null,
+                                "fieldTitle": null,
+                                "fieldType": null,
+                                "title": "",
+                                "customTitle": "",
+                                "placeHolder": "",
+                                "customPlaceHolder": "",
+                                "seq": 2,
+                                "hidden": false,
+                                "conReadOnly": true,
+                                "conRequired": false,
+                                "objDefaultValue": null,
+                                "conDefaultValue": "",
+                                "conDefaultValueType": "",
+                                "commCode": "",
+                                "objReadOnly": false,
+                                "objRequired": false,
+                                "enabled": true,
+                                "chartDataType": "",
+                                "calcFlag": false,
+                                "joinFlag": false,
+                                "maskFlag": false,
+                                "colEncFlag": false,
+                                "readOnly": true,
+                                "required": false,
+                                "defaultValue": "",
+                                "scriptFlag": false,
+                                "data": "",
                                 "events": null,
                                 "prop": {
                                     "span": 24,

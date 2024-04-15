@@ -1,8 +1,8 @@
 export default defineAppConfig({
     myLayer: {
       title: 'Hello from my first Nuxt App!!',
-      thememode: 'dark',
-      themename: 'yellow',
+      thememode: 'light',
+      themename: 'green',
       // theme: {
       //   primary: {
       //     '': '#e6a23c',

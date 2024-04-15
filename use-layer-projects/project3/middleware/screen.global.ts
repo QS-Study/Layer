@@ -1,6 +1,7 @@
 import jsonQuery from 'json-query'
 import { useMetaStore } from '@/stores/meta'
 import { useScreenStore } from '@/stores/screen'
+import { SettingAppStore } from '@/stores/settingApp'
 import metaData from '@/config/metaDataSample.json'
 import { cloneDeep } from 'lodash'
 
@@ -9,15 +10,18 @@ export default defineNuxtRouteMiddleware(
     
     const metaStore = useMetaStore()
     const screenStore = useScreenStore()
-
+    const settingAppStore = SettingAppStore()
     const path = to.path
 
     let userData = metaStore.getUserData.value
 
     if (!userData) {
+
       metaStore.setUserData(metaData.data)
 
       userData = metaStore.getUserData.value
+
+      settingAppStore.setMenuList()
     }
 
     const currScreen = jsonQuery(`screens[path=${path}]`, {
